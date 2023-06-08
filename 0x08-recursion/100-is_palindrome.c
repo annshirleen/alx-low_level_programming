@@ -29,8 +29,8 @@ int length(char *s)
 /**
  * is_palindrome_recursive - palindrome function helper
  * @s: string pointer
- * @start: start of the string
- * @end: end of the string
+ * @mwanzo: start of the string
+ * @mwisho: end of the string
  * Return: integer
  */
 
