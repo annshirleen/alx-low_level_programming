@@ -10,13 +10,20 @@
 char *_strdup(char *str)
 {
 	int i = 0;
+	int len = 0;
 	char *new_str = NULL;
 
 	if (str == NULL)
 		return (NULL);
-	new_str = malloc(sizeof(char *));
+	while (str[i] != '\0')
+		i++;
+	len = i + 2;
+
+	new_str = malloc(len);
 	if (new_str == NULL)
 		return (NULL);
+	i = 0;
+
 	while (str[i] != '\0')
 	{
 		new_str[i] = str[i];
