@@ -2,7 +2,7 @@
 
 /**
  * string_nconcat - a function that concatenates two strings
- * @si: string 1
+ * @s1: string 1
  * @s2: string 2
  * @n: sizeof s2
  * Return: new string
